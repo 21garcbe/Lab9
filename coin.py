@@ -8,7 +8,7 @@ a method called get_sideup() that return the current state of the coin
 """
 
 import random
-class coin:
+class Coin:
     """A class representing a coin with a heads/tails attribute and a method to flip the coin."""
 
     def __init__(self):
