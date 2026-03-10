@@ -15,11 +15,8 @@ class Coin:
     """
 
     def __init__(self):
-        """Initializes the coin with a random side up."""
-        if random.randint(0, 1) == 0:
-            self.__sideup = "Heads"
-        else:
-            self.__sideup = "Tails"
+        """Initializes the coin with heads up."""
+        self.__sideup = "Heads"
 
     def toss(self):
         """Simulates tossing the coin by randomly setting it to Heads or Tails."""
